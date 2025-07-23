@@ -205,4 +205,7 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
-/data
+/datadata/processed/groups_clean.csv
+data/processed/membership_filtered.csv
+results/telegram_graph.edgelist
+results/telegram_graph.pkl
