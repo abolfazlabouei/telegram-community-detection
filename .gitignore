@@ -209,3 +209,4 @@ __marimo__/
 data/processed/membership_filtered.csv
 results/telegram_graph.edgelist
 results/telegram_graph.pkl
+.env
