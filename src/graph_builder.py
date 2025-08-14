@@ -77,6 +77,6 @@ if __name__=="__main__":
     builder.compute_group_overlap()
     builder.build_graph()
 
-    # ذخیره گراف
+
     builder.save_graph_pickle("results/telegram_graph.pkl")
     builder.save_edge_list("results/telegram_graph.edgelist")
