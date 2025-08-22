@@ -110,14 +110,14 @@ class BatchLabeler:
         self.conn.commit()
 
 
-# 🎯 اجرای مستقیم
+
 if __name__ == "__main__":
     print("🔐 API Key:", os.getenv("OPENAI_API_KEY"))
     load_dotenv()
     labeler = BatchLabeler(
         api_key=os.getenv("OPENAI_API_KEY"),
         input_path="data/processed/groups_clean.csv",
-        db_path="results/labels.db",
+        db_path="results/mistral8B_labels.db",
         batch_size=50,
         sleep_time=2
     )
